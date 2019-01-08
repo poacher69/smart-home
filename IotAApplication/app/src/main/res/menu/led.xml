@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id ="@+id/menu_led"
+        android:icon = "@drawable/led"
+        android:title="日常模式"
+        app:showAsAction="always" />
+
+    <item android:id ="@+id/menu_main"
+        android:icon = "@drawable/smart_home"
+        android:title="首頁"
+        app:showAsAction="always" />
+</menu>

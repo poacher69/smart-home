@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageButton
+        android:id="@+id/imageButton_01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/body"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <ImageButton
+        android:id="@+id/imageButton_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="80dp"
+        android:src="@drawable/ipcam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton_01" />
+
+    <ImageButton
+        android:id="@+id/imageButton_3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/led"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_01" />
+
+    <ImageButton
+        android:id="@+id/imageButton_4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="80dp"
+        android:src="@drawable/temperature"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton_3" />
+
+    <ImageButton
+        android:id="@+id/imageButton_5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/smart_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_3" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:src="@drawable/sh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
